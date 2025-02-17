@@ -1,0 +1,158 @@
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+.character-container {
+  max-width: 900px;
+  background: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.character-info {
+  display: flex;
+  justify-content: space-between; /* Distributes the cards evenly */
+  gap: 10px; /* Adds spacing between the cards */
+  flex-wrap: wrap; /* Allows wrapping if the screen size is smaller */
+  max-width: 100%; /* Ensures the container width is responsive */
+}
+
+.card {
+  background-color: white; /* Purple color for the cards */
+  color: #4b0082;
+  width: 15%; /* Adjust card width */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card-scarlett {
+  background-color: white; /* Purple color for the cards */
+  color: red;
+  width: 15%; /* Adjust card width */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.char-info {
+  font-size: 25px !important;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between; /* Distributes the cards evenly */
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card {
+  background: #4b0082; /* Purple theme */
+  color: white;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+.skill-card-scarlett {
+  background: #e8301c; /* Purple theme */
+  color: white;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.extra-content {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: #e8301c;
+  border-radius: 5px;
+  display: none;
+  text-align: left;
+}
+.features-container {
+  max-width: 900px;
+  background: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.features-card {
+  background-color: white; /* Purple color for the cards */
+  color: #4b0082;
+
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.spells-container {
+  max-width: 900px;
+  background: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.form-check {
+  justify-content: center !important;
+}
+.abilities-container {
+  width: 80%;
+  max-width: 900px;
+  height: 500px; /* Fixed height */
+  margin: auto;
+  background: #2b2b2b;
+  color: white;
+  border-radius: 10px;
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background: #444;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.nav button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 16px;
+}
+.nav button:hover {
+  background: #666;
+  border-radius: 5px;
+}
+.content {
+  display: none;
+  padding: 20px;
+}
+.content.active {
+  display: block;
+}
+.limited-features {
+  justify-content: center;
+}
