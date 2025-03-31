@@ -1,0 +1,304 @@
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+h5 {
+  text-decoration: underline;
+}
+body {
+  background: radial-gradient(
+    circle at 10.6% 22.1%,
+    rgb(206, 18, 18) 0%,
+    rgb(122, 21, 21) 100.7%
+  );
+
+  background-size: cover;
+}
+button {
+  display: block;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  padding: 20px 15px;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+.hp-tracker-container {
+  width: 600px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  background-color: rgba(134, 129, 129, 0.85);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hp-card {
+  background: #bdbcbc; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.4s ease-in-out; /* Smooth transitions */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Light border */
+}
+.hp-info {
+  font-size: 24px;
+  color: rgb(198, 33, 33) !important;
+  font-weight: bold;
+}
+
+.hp-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Darker shadow */
+  transform: scale(1.05); /* Slightly scale up the card */
+  border-color: rgba(0, 0, 0, 0.4); /* Darker border */
+}
+.hp-info {
+  font-size: 24px;
+  color: rgb(198, 33, 33) !important;
+  font-weight: bold;
+}
+.hp-card .max-hp-input {
+  color: #fff; /* White text color */
+}
+
+.hp-info {
+  flex: 1;
+  text-align: left;
+  color: white;
+}
+
+.hp-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hp-setup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.hp-input,
+.hp-button {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hp-input {
+  background: rgb(198, 33, 33);
+  color: white;
+  text-align: center;
+  width: 60px;
+}
+.hp-max-input {
+  color: white !important;
+}
+
+.hp-button {
+  cursor: pointer;
+  background: rgb(198, 33, 33);
+  color: white;
+}
+
+.change-theme-button {
+  font-size: 12px;
+  background: white;
+  color: black;
+  padding: 10px 8px;
+}
+.change-theme-button:hover {
+  background: #e73e44;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.dark {
+  background: linear-gradient(
+    178.1deg,
+    rgb(60, 55, 106) 8.5%,
+    rgb(23, 20, 69) 82.4%
+  );
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.dark .container {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dark h1 {
+  color: #e33a44;
+}
+.dark h2 {
+  color: #e33a44;
+}
+.dark .btn {
+  background-color: #e33a44;
+}
+
+.character-container {
+  max-width: 900px;
+  background: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.character-info {
+  display: flex;
+  justify-content: space-between; /* Distributes the cards evenly */
+  gap: 10px; /* Adds spacing between the cards */
+  flex-wrap: wrap; /* Allows wrapping if the screen size is smaller */
+  max-width: 100%; /* Ensures the container width is responsive */
+}
+
+.card {
+  background-color: white; /* Purple color for the cards */
+  color: #4b0082;
+  width: 15%; /* Adjust card width */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card-scarlett {
+  background-color: white; /* Purple color for the cards */
+  color: rgb(198, 33, 33);
+  width: 15%; /* Adjust card width */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.char-info {
+  font-size: 25px !important;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between; /* Distributes the cards evenly */
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card {
+  background: #4b0082; /* Purple theme */
+  color: white;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+.skill-card-scarlett {
+  background: rgb(198, 33, 33);
+  color: white;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.skill-card-scarlett:hover {
+  transform: scale(1.05);
+}
+.mods-prof {
+  font-style: italic;
+  font-weight: bold;
+}
+.extra-content {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: rgb(198, 33, 33);
+  border-radius: 5px;
+  display: none;
+  text-align: left;
+}
+.features-container {
+  max-width: 900px;
+  background: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.features-card {
+  background-color: white; /* Purple color for the cards */
+  color: #4b0082;
+
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.form-check {
+  justify-content: center !important;
+}
+.abilities-container {
+  width: 80%;
+  max-width: 900px;
+  height: 500px; /* Fixed height */
+  margin: auto;
+  background: #2b2b2b;
+  color: white;
+  border-radius: 10px;
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background: #444;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.nav button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 16px;
+}
+.nav button:hover {
+  background: #666;
+  border-radius: 5px;
+}
+.content {
+  display: none;
+  padding: 20px;
+}
+.content.active {
+  display: block;
+}
+.limited-features {
+  justify-content: center;
+}
+.die-container {
+  max-width: 900px;
+  background: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
